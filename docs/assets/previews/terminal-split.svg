@@ -1,0 +1,42 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Yourcraft Split Terminal View UI</title>
+  <desc id="desc">Illustration based on SplitTerminalView and TerminalPanel with two active panels.</desc>
+  <rect width="1280" height="720" fill="#081020"/>
+  <rect x="24" y="24" width="1232" height="672" rx="14" fill="#0d172b" stroke="#314975" stroke-width="2"/>
+
+  <rect x="44" y="44" width="1192" height="52" rx="10" fill="#12223d"/>
+  <text x="66" y="76" fill="#f8cb64" font-family="Segoe UI, Arial" font-size="24" font-weight="700">Party • Split View</text>
+  <text x="914" y="76" fill="#91a8d3" font-family="Segoe UI, Arial" font-size="18">Cmd+\ to toggle view mode</text>
+
+  <rect x="44" y="114" width="586" height="562" rx="10" fill="#0a1426" stroke="#365288"/>
+  <rect x="650" y="114" width="586" height="562" rx="10" fill="#0a1426" stroke="#365288"/>
+
+  <rect x="44" y="114" width="586" height="46" rx="10" fill="#1e1e1e"/>
+  <rect x="650" y="114" width="586" height="46" rx="10" fill="#1e1e1e"/>
+  <text x="66" y="144" fill="#e7efff" font-family="Consolas, monospace" font-size="16">Asterion • /Users/jkol/lootcorp</text>
+  <text x="672" y="144" fill="#e7efff" font-family="Consolas, monospace" font-size="16">Hexline • /Users/jkol/lootcorp/website</text>
+
+  <circle cx="612" cy="136" r="9" fill="#2b2b2b" stroke="#767676"/>
+  <text x="607" y="141" fill="#bdbdbd" font-family="Segoe UI, Arial" font-size="14">×</text>
+  <circle cx="1218" cy="136" r="9" fill="#2b2b2b" stroke="#767676"/>
+  <text x="1213" y="141" fill="#bdbdbd" font-family="Segoe UI, Arial" font-size="14">×</text>
+
+  <text x="66" y="192" fill="#62d686" font-family="Consolas, monospace" font-size="17">$ pnpm test:server</text>
+  <text x="66" y="222" fill="#c3d5f8" font-family="Consolas, monospace" font-size="17">PASS auth, rewards, task-id resolution</text>
+  <text x="66" y="252" fill="#62d686" font-family="Consolas, monospace" font-size="17">$ supabase db push --yes</text>
+  <text x="66" y="282" fill="#8ff0be" font-family="Consolas, monospace" font-size="17">Finished supabase db push.</text>
+
+  <text x="672" y="192" fill="#62d686" font-family="Consolas, monospace" font-size="17">$ npm run website:preview</text>
+  <text x="672" y="222" fill="#c3d5f8" font-family="Consolas, monospace" font-size="17">Serving on http://localhost:4173</text>
+  <text x="672" y="252" fill="#62d686" font-family="Consolas, monospace" font-size="17">$ git diff -- website</text>
+  <text x="672" y="282" fill="#c3d5f8" font-family="Consolas, monospace" font-size="17">+ class roster section</text>
+  <text x="672" y="312" fill="#c3d5f8" font-family="Consolas, monospace" font-size="17">+ preview gallery scenes</text>
+
+  <rect x="66" y="560" width="540" height="88" rx="10" fill="rgba(251,191,36,0.18)" stroke="rgba(251,191,36,0.4)"/>
+  <text x="84" y="595" fill="#ffe196" font-family="Consolas, monospace" font-size="16">Active panel highlighted</text>
+  <text x="84" y="621" fill="#dbe8ff" font-family="Consolas, monospace" font-size="15">TerminalPanel + EmbeddedTerminal + GameOverlay</text>
+
+  <rect x="672" y="560" width="540" height="88" rx="10" fill="rgba(102,219,255,0.16)" stroke="rgba(102,219,255,0.4)"/>
+  <text x="690" y="595" fill="#9be4ff" font-family="Consolas, monospace" font-size="16">SplitTerminalView grid-2 layout</text>
+  <text x="690" y="621" fill="#dbe8ff" font-family="Consolas, monospace" font-size="15">Remove buttons, focus, compact panel behavior</text>
+</svg>

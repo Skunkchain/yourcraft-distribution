@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yourcraft Alpha — Work, But Make It a Game</title>
+  <meta name="description" content="Yourcraft adds a fun game overlay on top of real coding work so you stay motivated, do more, and play with friends.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Sora:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="assets/icons/logo-swords.png">
+</head>
+<body>
+  <div class="hex-pattern"></div>
+  <div class="ambient-glow glow-left" aria-hidden="true"></div>
+  <div class="ambient-glow glow-right" aria-hidden="true"></div>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <img class="logo-icon" src="assets/icons/logo-swords.png" alt="Yourcraft logo">
+        <span class="logo-text">YOURCRAFT</span>
+      </div>
+      <div class="nav-links">
+        <a href="#download" class="nav-link">Download</a>
+        <a href="status.html" class="nav-link">Status</a>
+        <a href="support.html" class="nav-link">Support</a>
+        <a href="https://github.com/Skunkchain/yourcraft-distribution" class="nav-link" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-content">
+        <p class="kicker">Gamified productivity for real builders</p>
+        <h1>Time flies when you're having fun. Work hard, play hard, yourcraft.</h1>
+        <p class="tagline">
+          Keep your normal workflow. Add a game layer on top. Every shipped task drives progression,
+          rewards, and team momentum so it is easier to stay locked in and do more meaningful work.
+        </p>
+        <p class="notice">Current stable target: macOS Apple Silicon (aarch64)</p>
+        <div class="cta-buttons">
+          <a id="download" href="https://github.com/Skunkchain/yourcraft-distribution/releases/download/stable-channel/Yourcraft_latest_stable_aarch64.dmg" class="btn btn-primary" target="_blank" rel="noreferrer">Download Stable</a>
+          <a href="mailto:alpha@yourcraft.gg?subject=Yourcraft%20Alpha%20Access" class="btn btn-secondary">Request Access</a>
+        </div>
+        <ul class="hero-points">
+          <li><img src="assets/icons/coins.png" alt="" aria-hidden="true"><span>Real work only, no fake grind</span></li>
+          <li><img src="assets/icons/party-group.png" alt="" aria-hidden="true"><span>Chat, guild up, and play with friends</span></li>
+          <li><img src="assets/icons/target-bullseye.png" alt="" aria-hidden="true"><span>Live or idle PvP with your squad builds</span></li>
+        </ul>
+      </div>
+
+      <div class="hero-visual">
+        <div class="session-card">
+          <p class="session-label">Live Session</p>
+          <h2>Squad Sprint: 6 tasks complete</h2>
+          <div class="session-lines">
+            <div class="session-line"><span>XP gained</span><strong>+1,420</strong></div>
+            <div class="session-line"><span>Loot drops</span><strong>3 rare</strong></div>
+            <div class="session-line"><span>Party streak</span><strong>5 days</strong></div>
+          </div>
+        </div>
+
+        <div class="class-grid">
+          <div class="class-card order">
+            <p class="faction-badge">Order</p>
+            <div class="class-icons">
+              <img src="assets/icons/paladin.png" alt="Paladin" title="Paladin">
+              <img src="assets/icons/archmage.png" alt="Archmage" title="Archmage">
+              <img src="assets/icons/hunter.png" alt="Hunter" title="Hunter">
+            </div>
+            <p class="faction-classes">Paladin, Archmage, Hunter</p>
+          </div>
+          <div class="class-card chaos">
+            <p class="faction-badge">Chaos</p>
+            <div class="class-icons">
+              <img src="assets/icons/death-knight.png" alt="Death Knight" title="Death Knight">
+              <img src="assets/icons/warlock.png" alt="Warlock" title="Warlock">
+              <img src="assets/icons/rogue.png" alt="Rogue" title="Rogue">
+            </div>
+            <p class="faction-classes">Death Knight, Warlock, Rogue</p>
+          </div>
+          <div class="class-card nature">
+            <p class="faction-badge">Nature</p>
+            <div class="class-icons">
+              <img src="assets/icons/barbarian.png" alt="Barbarian" title="Barbarian">
+              <img src="assets/icons/druid.png" alt="Druid" title="Druid">
+              <img src="assets/icons/assassin.png" alt="Assassin" title="Assassin">
+            </div>
+            <p class="faction-classes">Barbarian, Druid, Assassin</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="signal-strip">
+      <article class="signal-item">
+        <img src="assets/icons/monitor.png" alt="" aria-hidden="true">
+        <p>Use your existing tools</p>
+      </article>
+      <article class="signal-item">
+        <img src="assets/icons/chart-bar.png" alt="" aria-hidden="true">
+        <p>Overlay game progression</p>
+      </article>
+      <article class="signal-item">
+        <img src="assets/icons/party-group.png" alt="" aria-hidden="true">
+        <p>Chat and guild coordination</p>
+      </article>
+      <article class="signal-item">
+        <img src="assets/icons/coins.png" alt="" aria-hidden="true">
+        <p>Ship more, more often</p>
+      </article>
+    </section>
+
+    <section class="how-it-works section-block">
+      <h2>How Yourcraft Hooks You Into More Output</h2>
+      <div class="steps-grid">
+        <article class="step-card">
+          <p class="step-number">01</p>
+          <h3>Do real work</h3>
+          <p>Run normal coding sessions and finish concrete tasks you already need to ship.</p>
+        </article>
+        <article class="step-card">
+          <p class="step-number">02</p>
+          <h3>Earn progression</h3>
+          <p>Task completions feed XP, loot, upgrades, and battle readiness for your squad.</p>
+        </article>
+        <article class="step-card">
+          <p class="step-number">03</p>
+          <h3>Guild, chat, and battle</h3>
+          <p>Form guilds, chat with players, then queue live or idle battles against other teams.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="class-showcase section-block">
+      <h2>9 Playable Classes Across 3 Factions</h2>
+      <p class="section-intro">Build your style, assemble your team, and counter-pick for live or idle PvP.</p>
+      <div class="faction-columns">
+        <article class="faction-panel order">
+          <div class="faction-header">
+            <h3>Order</h3>
+            <p>Stability, control, and disciplined pressure.</p>
+          </div>
+          <div class="class-roster">
+            <article class="class-profile">
+              <img src="assets/icons/paladin.png" alt="Paladin">
+              <div>
+                <h4>Paladin</h4>
+                <p>Frontline guardian with durable defense and team protection tools.</p>
+              </div>
+            </article>
+            <article class="class-profile">
+              <img src="assets/icons/archmage.png" alt="Archmage">
+              <div>
+                <h4>Archmage</h4>
+                <p>Spell-focused controller with high burst windows and ranged pressure.</p>
+              </div>
+            </article>
+            <article class="class-profile">
+              <img src="assets/icons/hunter.png" alt="Hunter">
+              <div>
+                <h4>Hunter</h4>
+                <p>Precision damage dealer that excels at target focus and map control.</p>
+              </div>
+            </article>
+          </div>
+        </article>
+
+        <article class="faction-panel chaos">
+          <div class="faction-header">
+            <h3>Chaos</h3>
+            <p>Aggression, disruption, and explosive trades.</p>
+          </div>
+          <div class="class-roster">
+            <article class="class-profile">
+              <img src="assets/icons/death-knight.png" alt="Death Knight">
+              <div>
+                <h4>Death Knight</h4>
+                <p>Attrition bruiser that thrives in extended fights and pressure trades.</p>
+              </div>
+            </article>
+            <article class="class-profile">
+              <img src="assets/icons/warlock.png" alt="Warlock">
+              <div>
+                <h4>Warlock</h4>
+                <p>Curse-heavy caster built for sustained disruption and layered damage.</p>
+              </div>
+            </article>
+            <article class="class-profile">
+              <img src="assets/icons/rogue.png" alt="Rogue">
+              <div>
+                <h4>Rogue</h4>
+                <p>High-mobility ambusher that punishes mistakes with fast executions.</p>
+              </div>
+            </article>
+          </div>
+        </article>
+
+        <article class="faction-panel nature">
+          <div class="faction-header">
+            <h3>Nature</h3>
+            <p>Adaptation, tempo, and relentless pressure.</p>
+          </div>
+          <div class="class-roster">
+            <article class="class-profile">
+              <img src="assets/icons/barbarian.png" alt="Barbarian">
+              <div>
+                <h4>Barbarian</h4>
+                <p>Relentless brawler with momentum-based offense and heavy finishers.</p>
+              </div>
+            </article>
+            <article class="class-profile">
+              <img src="assets/icons/druid.png" alt="Druid">
+              <div>
+                <h4>Druid</h4>
+                <p>Flexible hybrid that adapts between sustain, control, and utility.</p>
+              </div>
+            </article>
+            <article class="class-profile">
+              <img src="assets/icons/assassin.png" alt="Assassin">
+              <div>
+                <h4>Assassin</h4>
+                <p>Stealth-minded finisher specialized in flanks and quick eliminations.</p>
+              </div>
+            </article>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="features section-block" id="features">
+      <h2>Alpha Highlights</h2>
+      <div class="feature-grid">
+        <article class="feature-card feature-social">
+          <div class="feature-icon"><img src="assets/icons/party-group.png" alt="" aria-hidden="true"></div>
+          <h3>Player chat + guilds</h3>
+          <p>Talk strategy, rally your crew, and keep momentum with guild-based collaboration.</p>
+        </article>
+        <article class="feature-card feature-loop">
+          <div class="feature-icon"><img src="assets/icons/chart-bar.png" alt="" aria-hidden="true"></div>
+          <h3>Momentum loop</h3>
+          <p>XP and rewards create a natural pull to return, focus, and keep shipping.</p>
+        </article>
+        <article class="feature-card feature-pvp">
+          <div class="feature-icon"><img src="assets/icons/target-bullseye.png" alt="" aria-hidden="true"></div>
+          <h3>Team PvP battles</h3>
+          <p>Assemble teams and challenge friends in live fights or async idle battle modes.</p>
+        </article>
+        <article class="feature-card feature-combat">
+          <div class="feature-icon"><img src="assets/icons/logo-swords.png" alt="" aria-hidden="true"></div>
+          <h3>Deep combat system</h3>
+          <p>Class matchups, ability timing, and team composition decisions create real strategic depth.</p>
+        </article>
+        <article class="feature-card feature-class">
+          <div class="feature-icon"><img src="assets/icons/archmage.png" alt="" aria-hidden="true"></div>
+          <h3>Class customization</h3>
+          <p>Shape builds with loadout choices and progression paths tailored to your playstyle.</p>
+        </article>
+        <article class="feature-card feature-rewards">
+          <div class="feature-icon"><img src="assets/icons/coins.png" alt="" aria-hidden="true"></div>
+          <h3>Progress from shipped work</h3>
+          <p>Your in-game power comes from real completed tasks, so effort always maps to advancement.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="screens section-block" id="screens">
+      <h2>See It In Action</h2>
+      <p class="section-intro">
+        UI illustrations based directly on current alpha components: terminal, split view, chat widget, and PvP surfaces.
+      </p>
+      <div class="screens-grid">
+        <article class="screen-card">
+          <img src="assets/screens/combat-scene.png" onerror="this.onerror=null;this.src='assets/previews/combat-scene.svg';" alt="PvP battle and loadout scene">
+          <h3>PvP Combat + Loadout</h3>
+          <p>Battle flow and trait loadout planning based on the current PvP and loadout interfaces.</p>
+        </article>
+        <article class="screen-card">
+          <img src="assets/screens/terminal-single.png" onerror="this.onerror=null;this.src='assets/previews/terminal-single.svg';" alt="Single-agent terminal with game overlay toasts">
+          <h3>Single-Agent Terminal</h3>
+          <p>Embedded terminal with toolbar actions and game overlay notifications tied to task events.</p>
+        </article>
+        <article class="screen-card">
+          <img src="assets/screens/terminal-split.png" onerror="this.onerror=null;this.src='assets/previews/terminal-split.svg';" alt="Split terminal layout for multiple agents">
+          <h3>Split Agent View</h3>
+          <p>Parallel agent execution with panel headers, active focus, and split-session coordination.</p>
+        </article>
+        <article class="screen-card">
+          <img src="assets/screens/chat-widget.png" onerror="this.onerror=null;this.src='assets/previews/chat-widget.svg';" alt="Chat widget and social coordination mock">
+          <h3>Player Chat Widget</h3>
+          <p>Channel-based chat and online player interactions inspired by the current in-app chat system.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="loop section-block">
+      <div class="loop-copy">
+        <h2>Built to make deep work feel like play</h2>
+        <p>
+          Yourcraft is not a replacement for your toolchain. It is a motivational overlay that turns consistent execution
+          into a game loop your brain wants to come back to, especially when you are working with friends in chat and guilds.
+        </p>
+      </div>
+      <div class="loop-stats">
+        <div class="stat-card">
+          <p>Core loop</p>
+          <strong>Work → Reward → Replay</strong>
+        </div>
+        <div class="stat-card">
+          <p>Collaboration mode</p>
+          <strong>Solo or Party</strong>
+        </div>
+        <div class="stat-card">
+          <p>Alpha channel</p>
+          <strong>Fast iteration</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="tech-stack section-block" id="status">
+      <h2>Alpha Status</h2>
+      <div class="status-grid">
+        <div class="status-card">
+          <h3>Platform</h3>
+          <p>macOS (Apple Silicon)</p>
+        </div>
+        <div class="status-card">
+          <h3>Update Channel</h3>
+          <p>Alpha channel active</p>
+        </div>
+        <div class="status-card">
+          <h3>Support Path</h3>
+          <p><a href="support.html">Open support page</a></p>
+        </div>
+        <div class="status-card">
+          <h3>Issue Reporting</h3>
+          <p>Reported directly in-app during alpha.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section section-block">
+      <h2>Before You Install</h2>
+      <p>This is an alpha build. Expect rapid updates and occasional regressions.</p>
+      <ul class="link-list">
+        <li><a href="support.html">Support and Contact</a></li>
+        <li><a href="status.html">Status</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Use</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+      <a href="status.html">Status</a>
+    </div>
+    <p>&copy; 2026 Yourcraft Alpha</p>
+  </footer>
+</body>
+</html>

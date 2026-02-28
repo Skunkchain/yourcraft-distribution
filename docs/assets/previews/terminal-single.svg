@@ -1,0 +1,43 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Yourcraft Single Terminal Panel UI</title>
+  <desc id="desc">Illustration based on TerminalPanel, TerminalToolbar, EmbeddedTerminal, and GameOverlay components.</desc>
+  <rect width="1280" height="720" fill="#07101f"/>
+  <rect x="24" y="24" width="1232" height="672" rx="14" fill="#0c162a" stroke="#2f4672" stroke-width="2"/>
+
+  <rect x="44" y="44" width="1192" height="52" rx="10" fill="#12223d"/>
+  <text x="66" y="76" fill="#f8cb64" font-family="Segoe UI, Arial" font-size="24" font-weight="700">Command • Single Agent</text>
+  <text x="940" y="76" fill="#8ea8d6" font-family="Segoe UI, Arial" font-size="18">Active: 1 • Power: 1420</text>
+
+  <rect x="44" y="114" width="1192" height="44" rx="8" fill="#1a1a2e"/>
+  <rect x="58" y="125" width="22" height="22" rx="4" fill="#60a5fa"/>
+  <text x="65" y="141" fill="#e8f2ff" font-family="Consolas, monospace" font-size="14" font-weight="700">A</text>
+  <text x="90" y="142" fill="#e7efff" font-family="Consolas, monospace" font-size="16">Asterion</text>
+  <text x="188" y="142" fill="#6f7f9e" font-family="Consolas, monospace" font-size="14">/Users/jkol/lootcorp</text>
+
+  <rect x="700" y="122" width="62" height="28" rx="6" fill="#2a3653" stroke="#647084"/>
+  <text x="717" y="141" fill="#d5dbe6" font-family="Consolas, monospace" font-size="14">Clear</text>
+  <rect x="768" y="122" width="86" height="28" rx="6" fill="#2a3653" stroke="#647084"/>
+  <text x="783" y="141" fill="#d5dbe6" font-family="Consolas, monospace" font-size="14">Reconnect</text>
+  <rect x="860" y="122" width="62" height="28" rx="6" fill="#22563a" stroke="#2ec27e"/>
+  <text x="877" y="141" fill="#96f5c8" font-family="Consolas, monospace" font-size="14">Ralph</text>
+  <rect x="928" y="122" width="62" height="28" rx="6" fill="#5a2630" stroke="#ef4444"/>
+  <text x="950" y="141" fill="#f7b7bd" font-family="Consolas, monospace" font-size="14">Stop</text>
+
+  <rect x="44" y="170" width="1192" height="506" rx="10" fill="#0a1426" stroke="#324b78"/>
+  <text x="64" y="204" fill="#8fa7d3" font-family="Consolas, monospace" font-size="17">EmbeddedTerminal (xterm)</text>
+  <text x="64" y="238" fill="#62d686" font-family="Consolas, monospace" font-size="18">$ supabase db push --yes</text>
+  <text x="64" y="270" fill="#c2d4f8" font-family="Consolas, monospace" font-size="18">Applying migration 20260225022000_public_rls_catchup.sql...</text>
+  <text x="64" y="302" fill="#8ef2be" font-family="Consolas, monospace" font-size="18">Finished supabase db push.</text>
+  <text x="64" y="334" fill="#62d686" font-family="Consolas, monospace" font-size="18">$ npm run build</text>
+  <text x="64" y="366" fill="#8ef2be" font-family="Consolas, monospace" font-size="18">Build complete in 17.3s</text>
+  <text x="64" y="398" fill="#62d686" font-family="Consolas, monospace" font-size="18">$ git commit -m "feat(website): class roster"</text>
+  <text x="64" y="430" fill="#c2d4f8" font-family="Consolas, monospace" font-size="18">[codex/alpha-launch-plan 1a2b3c4] feat(website): class roster</text>
+
+  <rect x="886" y="524" width="328" height="48" rx="10" fill="rgba(34,197,94,0.2)" stroke="rgba(34,197,94,0.45)"/>
+  <text x="906" y="554" fill="#96f5c8" font-family="Consolas, monospace" font-size="16">Subtask complete! +XP</text>
+  <rect x="886" y="580" width="328" height="48" rx="10" fill="rgba(251,191,36,0.2)" stroke="rgba(251,191,36,0.45)"/>
+  <text x="906" y="610" fill="#ffe196" font-family="Consolas, monospace" font-size="16">Commit detected</text>
+
+  <rect x="44" y="646" width="1192" height="30" rx="8" fill="#101f38"/>
+  <text x="64" y="666" fill="#7d8daf" font-family="Consolas, monospace" font-size="14">Use toolbar controls for clear/reconnect/ralph.</text>
+</svg>
